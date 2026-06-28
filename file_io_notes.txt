@@ -1,0 +1,33 @@
+===== WHY FILES? =====
+Variables disappear when the program stops.
+Files stay on disk forever (until deleted), even after the program closes.
+
+Q: What happened to my students list before file saving existed?
+A: It got wiped every time I closed the program. Reopening = empty list again.
+
+
+===== WHAT IS JSON =====
+JSON = a TEXT format for storing structured data (lists, dicts, numbers, strings).
+It looks almost exactly like Python list/dict syntax, but it's just plain text in a file,
+not actual Python objects in memory.
+
+Python list in memory:        [{"name": "arjun", "age": 22, "marks": 35}]
+Same data, as JSON in a file: [{"name": "arjun", "age": 22, "marks": 35}]
+
+Q: What's the real difference between them if they look the same?
+A: One is a live Python object in RAM, usable directly in code (student['name']).
+   The other is just TEXT sitting in a file — Python can't directly do student['name']
+   on it until it's been converted BACK into a real Python list/dict.
+
+===== THE TWO JSON FUNCTIONS =====
+json.dump(data, file)   -> takes a Python object (list/dict) and WRITES it as JSON text into a file
+json.load(file)         -> READS JSON text from a file and converts it BACK into a Python object
+
+Memory trick:
+  dump = "dump it OUT of Python, into the file"
+  load = "load it back IN, from the file, into Python"
+
+===== HANDS-ON TEST 1 RESULT =====
+Ran json.dump() on a dict -> test.json was created automatically (didn't make it by hand!)
+Content of test.json: {"name": "arjun", "age": 22}
+Confirms: json.dump() converts a Python object into JSON text and writes it to a file.

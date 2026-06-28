@@ -52,11 +52,11 @@ def delete_student(students_list):
 
     for student in students_list:
         if student['name'].lower() == name_to_delete.lower():
-            student_to_remove =student       # what goes here?
+            student_to_remove =student
 
     if student_to_remove is not None:
         students_list.remove(student_to_remove)
-        save_students(students_list)# which list method removes an item?
+        save_students(students_list)
         print(f"{name_to_delete} removed successfully")
     else:
         print("Student not found")
