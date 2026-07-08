@@ -1,5 +1,5 @@
 import json
-data = {"name": "arjun"}
+data = {"name": "arjun" ,"Age" :20}
 with open("data.txt","w") as f:
   json.dump(data,f)
   print("done")
