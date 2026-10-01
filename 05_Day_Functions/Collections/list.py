@@ -1,4 +1,4 @@
-fruits =["apple","banana","coconut"] #list
+fruits =["apple","banana","coconut,","apple"] #list -> orderd and changable , duplicates are ok
 
 # print("---------------------")
 # print(fruits)
@@ -22,3 +22,11 @@ fruits =["apple","banana","coconut"] #list
 # fruits[1]="arjjun" --> shifting index
 # for fruit in fruits:
 #   print (fruit) 
+# fruits.append("arjun")
+# fruits.remove("apple")
+# fruits.insert(1,"sugar")
+# fruits.sort()
+# fruits.reverse()
+# print(fruits.index("apple"))
+# print(fruits.count("apple"))
+print(fruits)
