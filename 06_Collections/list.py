@@ -1,4 +1,7 @@
-fruits =["apple","banana","coconut,","apple"] #list -> orderd and changable , duplicates are ok
+
+#list -> orderd and changable , duplicates are ok
+
+fruits =["apple","banana","coconut,","apple"] 
 
 # print("---------------------")
 # print(fruits)
