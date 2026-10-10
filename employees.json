@@ -1,0 +1,38 @@
+ [
+            {
+                "id": 101,
+                "name": "Arjun",
+                "age": 25,
+                "job": "Software Engineer",
+                "salary": 50000,
+                "skills": ["Python", "SQL", "JSON"]
+            
+            },
+            {
+                "id": 102,
+                "name": "Athul",
+                "age": 23,
+                "job": "QA Engineer",
+                "salary": 35000,
+                "skills": ["Testing", "Selenium", "Python"]
+                
+            },
+            {
+                "id": 103,
+                "name": "Henry",
+                "age": 28,
+                "job": "Data Analyst",
+                "salary": 45000,
+                "skills": ["SQL", "Excel", "Power BI"]
+                
+            },
+            {
+                "id": 104,
+                "name": "Meera",
+                "age": 26,
+                "job": "AI Engineer",
+                "salary": 65000,
+                "skills": ["Python", "Machine Learning", "Pandas"]
+            
+            }
+         ]

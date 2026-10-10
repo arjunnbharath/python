@@ -1,0 +1,20 @@
+[
+    {
+        "name": "arjun",
+        "age": 23,
+        "job": "sfmc dev",
+        "salary": 20000.0
+    },
+    {
+        "name": "aravind",
+        "age": 33,
+        "job": "unemployed",
+        "salary": 23.0
+    },
+    {
+        "name": "a",
+        "age": 23,
+        "job": "dd",
+        "salary": 3.0
+    }
+]
